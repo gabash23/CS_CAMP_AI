@@ -1,7 +1,7 @@
 button {
     transition-duration: 0.4s;
-    font-size:24px;
-    padding: 16px;
+    font-size:18px;
+    padding: 12px;
     font-weight: bold;
     border: none;
     color: -moz-mac-accentdarkestshadow;
@@ -17,7 +17,7 @@ button:hover {
 
 #buttons {
     text-align: center;
-    margin: 0;
+    margin-bottom: 100px;
     position: absolute;
     left: 35%;
 }

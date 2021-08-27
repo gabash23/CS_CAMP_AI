@@ -61,7 +61,7 @@ $('#add').click(() => {
     cy.add({
         group: 'nodes',
         data: {id: cur++},
-        position: { x: Math.random()*800+600, y: Math.random()*300+300 },
+        position: { x: $(window).width()/2-200 + Math.random()*200, y: $(window).height()/2-200 + Math.random()*200 },
         style: [ // the stylesheet for the graph
             {
                 selector: 'node',
