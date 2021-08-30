@@ -133,7 +133,7 @@ $('#dfs').click(() => {
         }
         nodes = [];
         found = false;
-    }, 1000)
+    }, 3000)
 })
 
 $('#bfs').click(() => {
@@ -202,7 +202,7 @@ $('#bfs').click(() => {
 
         nodes = [];
         found = false;
-    }, 1000)
+    }, 3000)
 })
 
 cy.on('tap', 'node', function(evt){
