@@ -234,9 +234,6 @@ function dfs(node, goal, edges) {
             found = true;
         }
 
-        // https://stackoverflow.com/questions/8922060/how-to-trace-the-path-in-a-breadth-first-search
-        // highlight the path
-
         cy.$(`#${node}`).style('background-color', 'yellow')
         visited.push(node)
 
